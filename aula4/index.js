@@ -1,4 +1,5 @@
-// Filter -> Retorna sempre um array, com a mesma quantidade de elementos ou menos
+// Filter -> Não modifica o array
+// Retorna sempre um array, com a mesma quantidade de elementos ou menos
 
 // Retorne os números maiores que 10
 const numeros = [5, 50, 80, 1, 2, 3, 5, 8, 7, 11, 15, 22, 27];
@@ -19,6 +20,7 @@ const pessoas = [
   { nome: "Rosana", idade: 32 },
   { nome: "Wallace", idade: 47 },
 ];
+
 const pessoasComNomeGrande = pessoas.filter((obj) => obj.nome.length >= 5);
 const pessoasVelhas = pessoas.filter((obj) => obj.idade > 50);
 const pessoasCujoNomeTerminaComA = pessoas.filter((obj) =>
