@@ -11,7 +11,7 @@ const soma = numeros.reduce(function (acumulador, valor) {
   return acumulador;
 }, 0);
 
-const filtrarPares = numeros.filter((valor) => valor % 2 == 0);
+const filtrarPares = numeros.filter((valor) => valor % 2 === 0);
 
 const dobrarValores = numeros.map((valor) => valor * 2);
 
